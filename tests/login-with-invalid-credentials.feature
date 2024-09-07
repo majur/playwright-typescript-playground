@@ -1,7 +1,8 @@
 Feature: Login to the Contact List
+
+  @invalid @login
   Scenario: Login with valid credentials
-    Given there is a user in database # toto cez backend
-    And login page is loaded
+    Given the website "https://thinking-tester-contact-list.herokuapp.com" is opened with generated user
     When user fills in invalid login credentials
     And user clicks in Submit button
-    Then error show up
+    Then error shows up

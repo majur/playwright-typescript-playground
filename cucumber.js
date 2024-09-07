@@ -5,6 +5,7 @@ module.exports = {
       paths: ['tests/**/*.feature'], // Recursively find all feature files
       parallel: 0, // Number of parallel executions (0 = no parallel)
       requireModule: ['ts-node/register'], // Supports TypeScript
+      timeout: 20000, // Increase the default timeout to 20 seconds
     },
   };
   
