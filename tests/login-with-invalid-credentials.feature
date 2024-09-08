@@ -1,6 +1,6 @@
 Feature: Login to the Contact List
 
-  @invalid @login
+  @all @invalid @login
   Scenario: Login with valid credentials
     Given the website "https://thinking-tester-contact-list.herokuapp.com" is opened with generated user
     When user fills in invalid login credentials
