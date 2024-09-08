@@ -15,8 +15,8 @@ Follow these steps to set up the project and run the tests:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/majur/playwright-typescript-playground.git
+cd playwright-typescript-playground
 ```
 
 
